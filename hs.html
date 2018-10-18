@@ -3,12 +3,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Projecto - Introdução Web</title>
-<link rel="stylesheet" type="text/css" href="css/stylep.css">
-<script language="Javascript" src="js/styleb.js"></script>
+<link rel="stylesheet" type="text/css" href="../css/stylep.css">
+<script language="Javascript" src="../js/stylesht.js"></script>
+
 
 </head>
 
-<body>
+<body onresize="resetm()">
 
 <div class="tbacknav"></div>
 
@@ -17,9 +18,8 @@
 <a href="http://www.si.ips.pt/ests_si/web_page.inicial" target="_blank"><img class="tnavips" src="img/ips.png"/></a>
 
 <div class="hobox">
-<a href="../index.html"><img class="home" src="../img/home.png"/></a>
+<a href="../index.html"><img class="home" src="img/home.png"/></a>
 </div>
-
 <div class="botoes">
 
 <img class="b1 hide" src="../img/bt1c.png"/>
@@ -53,6 +53,7 @@
 </li>
 </ul>
 
+
 </div>
 <div class="extra">
 <img class="inf" src="../img/info.png"  id = "popup" onclick ="div_show()"/>
@@ -64,9 +65,7 @@
 
 
 
-
 <div id="tebox">
-
 
 
 
@@ -75,55 +74,63 @@
 
 
 
+<div id="thtml">
 
-<div id="dw">
+<div id="tab">
 
-<ul><li class="dks"><p class="cent">Navegação</p>
-    <ul class="firstma">
-      <li class="tpda"><img class="logo" src="../img/firefox.png"/><div class="tiba">
-     <p> Mozilla Firefox é um navegador livre e multi-plataforma desenvolvido pela Mozilla Foundation com ajuda de centenas de colaboradores. A intenção da fundação é desenvolver um navegador leve, seguro, intuitivo e altamente extensível.</p>
-     <a href="https://www.mozilla.org/pt-PT/firefox/new/" target="_blank"><img class="down" src="../img/dn.png"/></a>
-      </div></li>
-      
-    </ul>
+<table id="tabela" align="center" cellspacing="0" cellpadding="0" border="1">
+<tbody><tr>
+<td>Texto</td>
+</tr>
 
-</li>
+</tbody>
+</table>
 
+</div>
 
-<li class="dks"><p class="cent">Edição rápida</p>
-    <ul class="firstma">
-      <li class="tpda"><img class="logo" src="../img/np.png"/><div class="tiba">
-     <p> Notepad++ é um editor de texto e de código fonte de código aberto sob a licença GPL. Suporta várias linguagens de programação rodando sob o sistema Microsoft Windows.
-O Notepad++ é distribuído como um Software livre. O projeto foi hospedado no SourceForge.net, onde foi baixado mais de 27 milhões de vezes e ganhou duas vezes o prêmio "SourceForge Community Choice Award" por melhor ferramenta de desenvolvimento.</p>
-<a href="https://notepad-plus-plus.org/" target="_blank"><img class="down" src="../img/dn.png"/></a>
-      </div></li>
-      
-    </ul>
-
-</li>
+<div class="esqhtml">
 
 
+		
+</div>
+<div class="dirhtml">
 
+<div class="ex">Código</div>
+<div class="tib">
 
-
-<li class="dks"><p class="cent">Construção</p>
-    <ul class="firstma">
-      <li class="tpda"><img class="logo" src="../img/ec.png"/><div class="tiba">
-      <p>Eclipse é um IDE para desenvolvimento Java, porém suporta várias outras linguagens a partir de plugins como C/C++,PHP,ColdFusion, Python, Scala e plataforma Android. Ele foi feito em Java e segue o modelo open source de desenvolvimento de software. Atualmente faz parte do kit de desenvolvimento de software recomendado para desenvolvedores Android.</p>
-<a href="https://eclipse.org/pdt/#download" target="_blank"><img class="down" src="../img/dn.png"/></a>
-      </div></li>
-     
-    </ul>
-
-</li>
-</ul>
-<div id="advr"><p class="cent">Todas estas páginas não são nossa propriedade.</p><p class="cent"> Como tal não nos responsabilizamos pelo seu conteúdo.</p></div>
+<div id="cdtxt">
+<xmp><table><tr><td></td></tr></table></xmp>
 </div>
 
 
+</div>
+
+	
+		
+		<div id="controls">
+		
+
+
+			<div id="rmt">
+		
+			<img id="mer" src="../img/ln.png" title="Adicionar linha" onclick="linha()"/>
+			<img id="mar" src="../img/cl.png" title="Adicionar coluna" onclick="coluna()"/>
+			<img id="maw" src="../img/mln.png" title="Retirar linha" onclick="dellinha()"/>
+			<img id="meh" src="../img/mcl.png" title="Retirar coluna" onclick="delcoluna()"/>
+			<img id="mew" src="../img/tres.png"  title="Apagar tabela" onclick="deltd2();deltd1()"/>
+			
+		
+			
+			
+			</div>
+		</div>
+
+</div>
+</div>
 
 
 </div>
+
 
 </div>
 
@@ -150,5 +157,6 @@ O Notepad++ é distribuído como um Software livre. O projeto foi hospedado no S
  </div>
 
  <a href="#top" id="ttop" onmouseover="gup()" onmouseleave="gdw()">&uarr;</a>
+
 </body>
 </html>
