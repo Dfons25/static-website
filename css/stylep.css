@@ -524,7 +524,7 @@ textarea {
     background-position: 5px 3px;
 }
 
-plaintext {
+.plaintext {
     display: block;
     font-family: monospace;
     white-space: pre;
