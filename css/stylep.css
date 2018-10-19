@@ -524,6 +524,13 @@ textarea {
     background-position: 5px 3px;
 }
 
+plaintext {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+}
+
 #email {
     background-image: url('../img/mail.png');
     background-repeat: no-repeat;
