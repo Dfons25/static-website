@@ -4,15 +4,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
 <title>Projecto - Introdução Web</title>
-
-<base href="/">
-<link rel="stylesheet" type="text/css" href="css/stylep.css" />
+<link rel="stylesheet" type="text/css" href="css/stylep.css">
 <script language="Javascript" src="js/styleb.js"></script>
-
 </head>
 
 <body>
-
 
 <div class="tbacknav"></div>
 
@@ -57,8 +53,8 @@
 </li>
 </ul>
 
-</div>
 
+</div>
 <div class="extra">
 <img class="inf" src="img/info.png"  id = "popup" onclick ="div_show()"/>
 <a href="downloads.html"><li class="b4"><img src="img/bt4.png"/></li></a>
@@ -66,6 +62,7 @@
 <li class="b5"><a href="ref.html"><img src="img/bt5.png"/></a></li>
 <a href="ref.html"><img class="b5 b5s" src="img/bt5s.png"/></a>
 </div>
+
 
 
 
@@ -85,18 +82,69 @@
 <div class="dirhtml">
 
 <div class="ex">Exemplo</div>
-<div class="tib">
+<div class="tib"><xmp>
+ <!DOCTYPE html>
+<html>
+<title>HTML</title>
+<body>
 
-&lt;!DOCTYPE html&gt;<br>
-&lt;html&gt;<br>
-&lt;title&gt;HTML&lt;/title&gt;<br>
-&lt;body&gt;<br>
+<h1>Titulo H1</h1>
+<p>Algum texto.</p>
 
-&lt;h1&gt;Titulo H1&lt;/h1&gt;<br>
-&lt;p&gt;Algum texto.&lt;/p&gt;<br>
+</body>
+</html> </xmp>
+</div>
 
-&lt;/body&gt;<br>
-&lt;/html&gt;
+</div>
+</div>
+
+<div id="thtml2">
+<div id="dirhtml2">
+<p class="tt">CSS</p>
+<p class="tx">Linguagem de formatação de conteúdo</p>
+<a class="tpd2" href="ci.html">Introdução</a>
+<a class="tpd2" href="ref.html#anc2">Referências</a>
+</div>
+<div id="esqhtml2">
+
+<div class="ex">Exemplo</div>
+<div class="tib"><xmp>
+body {
+    background-color: #d0e4fe;
+}
+h1 {
+    color: orange;
+    text-align: center;
+}
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;} </xmp>
+</div>
+
+</div>
+</div>
+
+<div id="thtml3">
+<div class="esqhtml">
+<p class="tt">JavaScript</p>
+<p class="tx">Um modo de agilizar páginas</p>
+<a class="tpd2" href="ji.html">Introdução</a>
+<a class="tpd2" href="ref.html#anc3">Referências</a>
+</div>
+<div class="dirhtml">
+
+<div class="ex">Exemplo</div>
+<div class="tib"><xmp>
+<script>
+function myFunction() {
+    var x = document.getElementById("demo");
+    x.style.fontSize = "25px";
+    x.style.color = "red";
+}
+</script>
+
+<button onclick="myFunction()">Click Me!</button>
+</xmp>
 </div>
 
 </div>
@@ -129,5 +177,6 @@
  </div> 
  </div>
 
+ <a href="#top" id="ttop" onmouseover="gup()" onmouseleave="gdw()">&uarr;</a>
 </body>
 </html>
